@@ -9,7 +9,7 @@ import useAdmin from "../../../hooks/useAdmin";
 const NavBar = () => {
     const { user, logOut } = useContext(AuthContext);
     const [cart] = useCart();
-    const isAdmin = useAdmin();
+    const [isAdmin] = useAdmin();
 
     const handleLogOut = () => {
         logOut()

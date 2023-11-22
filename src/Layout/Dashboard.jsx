@@ -27,7 +27,7 @@ const Dashboard = () => {
                         {/* Shared Nav Links */}
                         {
                             isAdmin ? <>
-                                <li><NavLink to="/dashboard/adminhome"><IoHomeOutline />
+                                <li><NavLink to="/dashboard/adminHome"><IoHomeOutline />
                                     Admin Home</NavLink></li>
                                 <li><NavLink to="/dashboard/additems"><MdOutlineRestaurantMenu /> Add Items</NavLink></li>
                                 <li><NavLink to="/dashboard/manageitems"><FaUtensils /> Manage Items</NavLink></li>

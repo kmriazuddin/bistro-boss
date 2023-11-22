@@ -87,7 +87,7 @@ const Routes = createBrowserRouter([
       {
         path: 'updateItem/:id',
         element: <AdminRoute><UpdateItems></UpdateItems></AdminRoute>,
-        loader: ({params}) => fetch(`http://localhost:5000/menu/${params.id}`)
+        loader: ({params}) => fetch(`https://bistro-boss.onrender.com/menu/${params.id}`)
       },
       {
         path: 'allusers',
