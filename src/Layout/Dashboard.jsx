@@ -12,7 +12,7 @@ import useCart from "../hooks/useCart";
 const Dashboard = () => {
     const [cart] = useCart();
 
-    // Todo: Get IsAdmin VAlue From The Database
+    // Get IsAdmin VAlue From The Database
     const [isAdmin] = useAdmin();
     return (
         <div>
